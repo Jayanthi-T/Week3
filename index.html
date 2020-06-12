@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3 solution</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    
+    body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h1 {
+    margin: 0;
+    padding: 52px 0px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+
+}
+
+.box {
+    margin: 10px 5px;
+    border: 3px solid black;
+    background-color: #9e9e9e;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 30%;
+
+}
+
+.title {
+    float: right;
+    width: 28%;
+    height: 16px;
+    text-align: center;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.content {
+    font-weight: bold;
+    margin: 55px 10px;
+
+}
+
+#chic {
+    background-color: #e78787c7;
+}
+
+#bee {
+    color: white;
+    background-color: #ca3c22;
+}
+
+#shu {
+    background-color: #fff389;
+}
+
+/* large devices */
+@media (min-width: 992px) {
+
+    .col-lg-4 {
+        width: 32%;
+    }
+
+
+}
+
+/* medium size devices */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .col-md-6 {
+        width: 48%;
+    }
+
+    .col-md-last {
+        width: 98%;
+    }
+}
+</style>
+
+<body>
+            <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          
+            <h1>Food LLC</h1></a>
+            <p>
+              
+            </p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#ch">
+                <span ></span><br class="hidden-xs"> Chicken</a>
+            </li>
+            <li>
+              <a href="#be">
+                <span></span><br class="hidden-xs"> Beef</a>
+            </li>
+            <li>
+              <a href="#su">
+                <span ></span><br class="hidden-xs"> Sushi</a>
+            </li>
+           
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+
+<h1>Our Menu</h1>
+<div class="container">
+    <div class="box col-lg-4 col-md-6">
+        
+        <div >
+            <h3 id="ch" style="text-align: center;">Chicken</h3>
+        </div>
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod at molestias eligendi,
+            accusantium illum rerum omnis nostrum placeat, porro dolore esse doloremque deserunt consequatur vero
+            velit
+            perspiciatis sequi eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod at
+            molestias eligendi, accusantium illum rerum omnis nostrum placeat, porro dolore esse doloremque deserunt
+            consequatur vero velit perspiciatis sequi eaque.
+        </div>
+    </div>
+    <div class="box col-lg-4 col-md-6">
+
+        <div >
+            <h3 id="be" style="text-align: center;">Beef</h3>
+        </div>
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod at molestias eligendi,
+            accusantium illum rerum omnis nostrum placeat, porro dolore esse doloremque deserunt consequatur vero
+            velit
+            perspiciatis sequi eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod at
+            molestias eligendi, accusantium illum rerum omnis nostrum placeat, porro dolore esse doloremque deserunt
+            consequatur vero velit perspiciatis sequi eaque.
+        </div>
+    </div>
+
+    <div class="box col-lg-4 col-md-last">
+        <div >
+            <h3 id="su" style="text-align: center;">Sushi</h3>
+        </div>
+
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod at molestias eligendi,
+            accusantium illum rerum omnis nostrum placeat, porro dolore esse doloremque deserunt consequatur vero
+            velit
+            perspiciatis sequi eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod at
+            molestias eligendi, accusantium illum rerum omnis nostrum placeat, porro dolore esse doloremque deserunt
+            consequatur vero velit perspiciatis sequi eaque.
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+© 2020 GitHub, Inc.
